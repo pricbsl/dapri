@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("https://uploaddeimagens.com.br/images/002/310/316/full/abstract-art-artistic-1328891.jpg?1567270467");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* A imagem cobre a tela */
+    height: 500px;
+    /* Altura da minha section */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* Alinhar os elementos horizontalmente */
+    align-items: center;
+    /* Alinhar os elementos verticalmente */
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.texto p {
+    margin-bottom: 70px;
+    color: white;
+    font-size: 25px;
+}
+
+.texto a {
+    background-color: white;
+    color: purple;
+    text-decoration: none;
+    /* Tirar a linha debaixo do link */
+    text-transform: uppercase;
+    /* Letras maiusculas */
+    padding: 20px 40px;
+    /* Espacamento, primeiro altura, segundo largura*/
+    border-radius: 30px;
+}
+
+.texto a:hover {
+    background-color: palevioletred;
+    color: white;
+}
+
+.sobre-mim-descricao a:hover {
+    background-color: purple;
+    color: white;
+}
+
+.sobre-mim {
+    display: flex;
+    height: 250px;
+    justify-content: center;
+}
+
+.sobre-mim-descricao {
+    width: 600px;
+    padding-right: 60px;
+}
+
+.sobre-mim-descricao h2 {
+    font-size: 25px;
+    color: blueviolet;
+    padding: 20px;
+}
+
+.sobre-mim-lista {
+    margin-top: 80px;
+}
+
+.sobre-mim-descricao a {
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.rede-social-especifica {
+    background-color: palevioletred;
+    padding: 10px 40px;
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    padding: 15px;
+    margin-top: 30px;
+}
